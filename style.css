@@ -18,7 +18,7 @@ ul{
 }
 .company-detail{
     border-radius: 10px 10px;
-    background-color: #34495e;
+    background-color: rgb(220, 253, 255) ;
     padding: 5px 15px;
     margin-bottom: 20px;
 }
@@ -54,6 +54,7 @@ ul{
     margin-bottom: 15px;
     color: black;
     height: 100%;
+    color: #fff;
 }
 #footer-sidebar{
     color: #fff;
