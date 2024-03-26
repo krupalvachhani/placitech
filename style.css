@@ -53,6 +53,7 @@ ul{
     border-radius: 10px 10px;
     margin-bottom: 15px;
     color: black;
+    height: 100%;
 }
 #footer-sidebar{
     color: #fff;
@@ -107,5 +108,8 @@ ul{
     }
     #footer-sidebar{
         display: none;
+    }
+    .feed{
+        height: auto;
     }
 }
