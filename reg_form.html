@@ -13,7 +13,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 120vh;
+            height: 150vh;
         }
 
         .main {
@@ -24,10 +24,6 @@
             width: 750px;
         }
 
-        .main h2 {
-            color: #4caf50;
-            margin-bottom: 20px;
-        }
 
         label {
             display: block;
@@ -63,7 +59,7 @@
             padding: 10px;
             border-radius: 10px;
             border: none;
-            background-color: #4caf50;
+            background-color: #5394a1;
             color: white;
             cursor: pointer;
             width: 15%;
@@ -74,7 +70,7 @@
             padding: 10px;
             border-radius: 10px;
             border: none;
-            background-color: #4caf50;
+            background-color: #5394a1;
             color: white;
             cursor: pointer;
             width: 15%;
@@ -91,7 +87,7 @@
 </head>
 <body>
     <div class="main">
-        <form action="">
+        <form>
             <label for="Name">Name:</label>
             <input type="text" name="first_name" placeholder="Name" required>
 
@@ -129,10 +125,7 @@
 
             <label for="Criteria">Criteria:</label>
             <input type="text" name="SPI" placeholder="SPI" required><input type="text" name="CGPA" placeholder="CGPA" required>
-                <select id="Backlogs" name="Backlogs" required>
-                    <option value="active backlogs">active backlogs</option>
-                    <option value="total backlogs">total backlogs</option>
-                </select>
+            <input type="text" name="Active Backlogs" placeholder="Active Backlogs" required><input type="text" name="Total Backlogs" placeholder="Total Backlogs" required>
 
             <label for="DOB">DOB:</label>
             <input type="date">
@@ -140,7 +133,14 @@
             <label for="Designations">Designations:</label>
             <select id="Designations" name="Designations" required>
                 <option value="Web Developer">Web Developer</option>
+                <option value="Front end Developer">Front end Developer</option>
+                <option value="Back end Developer">Back end Developer</option>
                 <option value="Software Engineer">Software Engineer</option>
+                <option value="Assitant Engineer">Assitant Engineer</option>
+                <option value="Component Engineer">Componenet Engineer</option>
+                <option value="Aeronautical Engineer">Aeronautical Engineer</option>
+                <option value="Design Engineer">Design Engineer</option>
+                <option value="Structural Engineer">Structural Engineer</option>
             </select>
 
             <label for="Description">Description:</label>
