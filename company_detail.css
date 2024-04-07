@@ -1,0 +1,19 @@
+#company-head{
+    background-color: #34495e;
+    color: white;
+}
+body{
+    background-color: rgb(159, 216, 219);
+    color: #19165a;
+}
+.section-head h2:after{
+    content: "";
+    background-color: #19165a;
+    display: block;
+    width: 100px;
+    height: 2px;
+    margin: 5px 2px;
+}
+b{
+    font-weight: 600;
+}

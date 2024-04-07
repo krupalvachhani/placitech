@@ -28,3 +28,17 @@ function hidecompany(e){
     viewmore.style.display='inline-block';
     viewless.style.display='none';
 }
+
+
+
+const aboutbtn=document.querySelector('#about');
+const aboutinfo=document.querySelector('#reason');
+aboutbtn.addEventListener('click',() => {
+    aboutinfo.scrollIntoView();
+})
+
+const contactbtn=document.querySelector('#contact');
+const contactinfo=document.querySelector('#footer-sidebar');
+aboutbtn.addEventListener('click',() => {
+    aboutinfo.scrollIntoView();
+})
